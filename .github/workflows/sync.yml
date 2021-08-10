@@ -15,7 +15,7 @@ jobs:
                   yarn
             - name: Collect
               run: |
-                  npm start
+                  yarn start
             - name: Add
               run: |
                   git config --global user.email "hi@atanas.info"

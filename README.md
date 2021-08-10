@@ -1,6 +1,6 @@
 # NPM Statistics
 
-![NPM Statistics](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fscriptex%2Fnpm-username%2Fmaster%2Fbadge.json)
+![NPM Statistics](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/scriptex/npm-stats/main/badge.json)
 
 NPM Download Statistics for DavidWells Open Source Projects. Updated Daily.
 
@@ -8,7 +8,6 @@ NPM Download Statistics for DavidWells Open Source Projects. Updated Daily.
 
 <!-- Please do not modify this auto generated content -->
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
-
 | Name                                                                                     | Downloads  |
 | ---------------------------------------------------------------------------------------- | ---------- |
 | [@three11/accordion](https://www.npmjs.com/package/@three11/accordion)                   | 269        |
@@ -53,7 +52,6 @@ NPM Download Statistics for DavidWells Open Source Projects. Updated Daily.
 | [webpack-mpa-next](https://www.npmjs.com/package/webpack-mpa-next)                       | 966        |
 | [webpack-mpa-ts](https://www.npmjs.com/package/webpack-mpa-ts)                           | 939        |
 | **Sum**                                                                                  | **564116** |
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-statistics`?

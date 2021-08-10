@@ -1,29 +1,30 @@
-const fs = require('fs');
-const path = require('path');
+import { writeFileSync } from 'fs';
+import { join, resolve } from 'path';
 
-const magic = require('markdown-magic');
-const table = require('markdown-table');
-const npmtotal = require('npmtotal');
+import magic from 'markdown-magic';
+import npmtotal from 'npmtotal';
+import { markdownTable } from 'markdown-table';
 
-const pkg = require('./package.json');
-const badgeConfig = require('./badge.json');
+import pkg from './package.json';
+import badgeConfig from './badge.json';
 
 const key = pkg['npm-username'];
+const __dirname = resolve();
 
 if (!key) {
-	throw new Error('Please add `npm-username` to your package.json'); // eslint-disable-line
+	throw new Error('Please add `npm-username` to your package.json');
 }
 
 function generateMarkdownTable(tableRows, sum) {
 	const config = {
 		transforms: {
 			PACKAGES() {
-				return table([['Name', 'Downloads'], ...tableRows, ['**Sum**', `**${sum}**`]]);
+				return markdownTable([['Name', 'Downloads'], ...tableRows, ['**Sum**', `**${sum}**`]]);
 			}
 		}
 	};
 
-	magic(path.join(__dirname, 'README.md'), config, d => {
+	magic(join(__dirname, 'README.md'), config, d => {
 		console.log(`Updated total downloads ${sum}`);
 	});
 }
@@ -45,7 +46,7 @@ function generateMarkdownTable(tableRows, sum) {
 
 	badgeConfig.message = `${stats.sum} Downloads`;
 
-	await fs.writeFileSync('./badge.json', JSON.stringify(badgeConfig, null, 2));
+	await writeFileSync('./badge.json', JSON.stringify(badgeConfig, null, 2));
 
 	generateMarkdownTable(sortedStats, stats.sum);
 })();
