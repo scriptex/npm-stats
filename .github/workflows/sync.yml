@@ -1,0 +1,29 @@
+name: Sync
+
+on:
+    schedule:
+        - cron: '1 0 * * *'
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v2
+            - name: Install
+              run: |
+                  yarn
+            - name: Collect
+              run: |
+                  npm start
+            - name: Add
+              run: |
+                  git config --global user.email "hi@atanas.info"
+                  git config --global user.name "Atanas Atanasov"
+                  git status
+                  git add .
+                  git commit -m ":package: Update downloads"
+            - name: Push
+              uses: ad-m/github-push-action@master
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
