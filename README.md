@@ -2,7 +2,7 @@
 
 ![NPM Statistics](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/scriptex/npm-stats/main/badge.json)
 
-NPM Download Statistics for DavidWells Open Source Projects. Updated Daily.
+NPM Download Statistics for Atanas Atanasov's Open Source Projects. Updated Daily.
 
 ## Downloads
 
