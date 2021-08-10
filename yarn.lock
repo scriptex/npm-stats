@@ -711,7 +711,7 @@ longest-streak@^2.0.0:
   resolved "https://registry.yarnpkg.com/longest-streak/-/longest-streak-2.0.4.tgz#b8599957da5b5dab64dee3fe316fa774597d90e4"
   integrity sha512-vM6rUVCVUJJt33bnmHiZEvr7wPT78ztX7rojL+LW51bHtLh6HTjx84LA5W4+oa6aKEJA7jJu5LR6vQRBpA5DVg==
 
-markdown-magic@^2.5.2:
+markdown-magic@2.5.2:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-2.5.2.tgz#4d114308e613b236fd015de5bf0b14582461d7cf"
   integrity sha512-bIiV0CKmwHDlvJRPGVZCJfWlt6ORlTidMJrvWallycaknGOdobnHEId1bBbaWcKFnj/CHC8QArsp/2wEABK8NA==
@@ -725,10 +725,10 @@ markdown-magic@^2.5.2:
     mkdirp "^1.0.4"
     sync-request "^6.1.0"
 
-markdown-table@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-1.1.3.tgz#9fcb69bcfdb8717bfd0398c6ec2d93036ef8de60"
-  integrity sha512-1RUZVgQlpJSPWYbFSpmudq5nHY1doEIv89gBtF0s4gW1GF2XorxcA/70M5vq7rLv0a6mhOUccRsqkwhwLCIQ2Q==
+markdown-table@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-3.0.1.tgz#88c48957aaf2a8014ccb2ba026776a1d736fe3dc"
+  integrity sha512-CBbaYXKSGnE1uLRpKA1SWgIRb2PQrpkllNWpZtZe6VojOJ4ysqiq7/2glYcmKsOYN09QgH/HEBX5hIshAeiK6A==
 
 markdown-table@^2.0.0:
   version "2.0.0"
@@ -948,16 +948,16 @@ node-fetch@^1.0.1:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
-npmtotal@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/npmtotal/-/npmtotal-1.4.0.tgz#78417f9373c9d27bce147bd9d38ca5c39b398a5d"
-  integrity sha512-AYind+oGcUrLjfdCFlIr4+xsi2szl3KLyZe2s7rBkgQsrIkSXA3i2SCNg6NVYpMaO17eR1xfm4kvsujuvlbIZQ==
+npmtotal@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/npmtotal/-/npmtotal-1.4.1.tgz#1068650a486b528638c856025f674a1e6e8c7c7b"
+  integrity sha512-PfSQmAo31Rda2E8hvgEtAdBuPkBl+SsqDKKN/RSldECtRKOm3DjHV+GW+RL7ZBj4CqJ9JJWlf9JCLN9dWREkGA==
   dependencies:
     isomorphic-fetch "^2.2.1"
     lodash "^4.17.15"
     progress "^2.0.3"
     table "^5.4.6"
-    yargs "^15.1.0"
+    yargs "^15.4.1"
 
 object-inspect@^1.9.0:
   version "1.11.0"
@@ -1194,9 +1194,9 @@ string-width@^3.0.0:
     strip-ansi "^5.1.0"
 
 string-width@^4.1.0, string-width@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.0.tgz#952182c46cc7b2c313d1596e623992bd163b72b5"
-  integrity sha512-zUz5JD+tgqtuDjMhwIg5uFVV3dtqZ9yQJlZVfq4I01/K5Paj5UHj7VyrQOJvzawSVlKpObApbfD0Ed6yJc+1eg==
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.2.tgz#dafd4f9559a7585cfba529c6a0a4f73488ebd4c5"
+  integrity sha512-XBJbT3N4JhVumXE0eoLU9DCjcaF92KLNqTmFCnG1pf8duUxFGwtP6AD6nkjw9a3IdiRtL3E2w3JDiE/xi3vOeA==
   dependencies:
     emoji-regex "^8.0.0"
     is-fullwidth-code-point "^3.0.0"
@@ -1392,7 +1392,7 @@ yargs-parser@^18.1.2:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs@^15.1.0:
+yargs@^15.4.1:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
   integrity sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==

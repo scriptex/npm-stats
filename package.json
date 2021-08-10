@@ -28,15 +28,15 @@
 			"url": "https://ko-fi.com/scriptex"
 		}
 	],
-	"main": "index.js",
+	"main": "index.mjs",
 	"repository": "https://github.com/scriptex/npm-stats",
 	"scripts": {
-		"start": "node index.js"
+		"start": "node --experimental-json-modules index.mjs"
 	},
 	"dependencies": {
-		"markdown-magic": "^2.5.2",
-		"markdown-table": "^1.1.3",
-		"npmtotal": "1.4.0"
+		"markdown-magic": "2.5.2",
+		"markdown-table": "3.0.1",
+		"npmtotal": "1.4.1"
 	},
 	"private": true,
 	"npm-username": "scriptex"
