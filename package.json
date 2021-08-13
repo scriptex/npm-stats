@@ -39,5 +39,8 @@
 		"npmtotal": "1.4.1"
 	},
 	"private": true,
-	"npm-username": "scriptex"
+	"stats": {
+		"user": "scriptex",
+		"startDate": "2018-01-01"
+	}
 }
