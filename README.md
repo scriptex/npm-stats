@@ -1,13 +1,14 @@
-# NPM Statistics
+# NPM Stats
 
-![NPM Statistics](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/scriptex/npm-stats/main/badge.json)
+![NPM Stats](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/scriptex/npm-stats/main/badge.json)
 
-NPM Download Statistics for Atanas Atanasov's Open Source Projects. Updated Daily.
+> NPM download statistics for **Atanas Atanasov's** opens source projects. Updated Daily.
 
 ## Downloads
 
 <!-- Please do not modify this auto generated content -->
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
+
 | Name                                                                                     | Downloads  |
 | ---------------------------------------------------------------------------------------- | ---------- |
 | [@three11/accordion](https://www.npmjs.com/package/@three11/accordion)                   | 1021       |
@@ -52,13 +53,13 @@ NPM Download Statistics for Atanas Atanasov's Open Source Projects. Updated Dail
 | [webpack-mpa-next](https://www.npmjs.com/package/webpack-mpa-next)                       | 2926       |
 | [webpack-mpa-ts](https://www.npmjs.com/package/webpack-mpa-ts)                           | 1823       |
 | **Sum**                                                                                  | **858296** |
+
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-### Wanna use `npm-statistics`?
+### Wanna use `npm-stats`?
 
 1. `Fork` this repository.
-2. Add your npm username/author or list of packages in `package.json` as `stats.user` key.
-   for author
+2. Add your npm username/author in `package.json` as `stats.user` key.
 
 ```js
 {
@@ -68,8 +69,7 @@ NPM Download Statistics for Atanas Atanasov's Open Source Projects. Updated Dail
 }
 ```
 
-3. Run `yarn` and then `yarn start` to generate the Downloads.
-4. The repo comes with a daily CRON job that updates the Downloads.
-5. For updating the badge replace `scriptex` in badge endpoint to your github username/orgname.
-   https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/scriptex/npm-stats/main/badge.json
-6. Enable `GitHub Actions` for your forked repo, as it is not enabled by default for forks.
+1. Run `yarn` and then `yarn start` to generate the Downloads.
+2. The repo comes with a daily CRON job that updates the Downloads.
+3. For updating the badge replace `scriptex` in the badge config (`badje.json`) with your Github username/organization name.
+4. Enable `GitHub Actions` for your forked repo, as it is not enabled by default for forks.
