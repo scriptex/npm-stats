@@ -8,11 +8,11 @@ import { markdownTable } from 'markdown-table';
 import pkg from './package.json';
 import badgeConfig from './badge.json';
 
-const key = pkg['npm-username'];
+const key = pkg.stats?.user;
 const __dirname = resolve();
 
 if (!key) {
-	throw new Error('Please add `npm-username` to your package.json');
+	throw new Error('Please add `user` in the `stats` field of your package.json');
 }
 
 function generateMarkdownTable(tableRows, sum) {
@@ -32,9 +32,14 @@ function generateMarkdownTable(tableRows, sum) {
 (async () => {
 	console.log(`Fetching data for user ${key} from NPM. Please wait...`);
 
-	const stats = await npmtotal(key);
-
-	console.log(stats);
+	const stats = await npmtotal(
+		key,
+		pkg.stats?.startDate
+			? {
+					startDate: pkg.stats.startDate
+			  }
+			: undefined
+	);
 
 	const sortedStats = stats.stats
 		.sort(([aName], [bName]) => (aName > bName ? 1 : aName < bName ? -1 : 0))
