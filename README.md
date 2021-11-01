@@ -39,6 +39,7 @@
 | [react-dropper](https://www.npmjs.com/package/react-dropper)                             | 273        |
 | [react-round-carousel](https://www.npmjs.com/package/react-round-carousel)               | 3853       |
 | [react-svg-donuts](https://www.npmjs.com/package/react-svg-donuts)                       | 6724       |
+| [round-carousel-component](https://www.npmjs.com/package/round-carousel-component)       | 0          |
 | [scriptex-socials](https://www.npmjs.com/package/scriptex-socials)                       | 16222      |
 | [scss-goodies](https://www.npmjs.com/package/scss-goodies)                               | 17777      |
 | [simple-calendar-widget](https://www.npmjs.com/package/simple-calendar-widget)           | 449        |
