@@ -35,7 +35,7 @@
 	},
 	"dependencies": {
 		"markdown-magic": "2.5.2",
-		"markdown-table": "3.0.1",
+		"markdown-table": "3.0.2",
 		"npmtotal": "1.4.1"
 	},
 	"private": true,
