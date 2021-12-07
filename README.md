@@ -24,6 +24,7 @@
 | [create-pwa](https://www.npmjs.com/package/create-pwa)                                   | 58293       |
 | [create-react-app-ts](https://www.npmjs.com/package/create-react-app-ts)                 | 2594        |
 | [dator](https://www.npmjs.com/package/dator)                                             | 1431        |
+| [gitlab-calendar](https://www.npmjs.com/package/gitlab-calendar)                         | 32          |
 | [hover-media-query](https://www.npmjs.com/package/hover-media-query)                     | 4290        |
 | [html-head-component](https://www.npmjs.com/package/html-head-component)                 | 14913       |
 | [html5-form-validator](https://www.npmjs.com/package/html5-form-validator)               | 2346        |
@@ -43,6 +44,7 @@
 | [scriptex-socials](https://www.npmjs.com/package/scriptex-socials)                       | 17641       |
 | [scss-goodies](https://www.npmjs.com/package/scss-goodies)                               | 18749       |
 | [simple-calendar-widget](https://www.npmjs.com/package/simple-calendar-widget)           | 522         |
+| [svg-symbol-sprite](https://www.npmjs.com/package/svg-symbol-sprite)                     | 36          |
 | [svg64](https://www.npmjs.com/package/svg64)                                             | 56787       |
 | [svgo-add-viewbox](https://www.npmjs.com/package/svgo-add-viewbox)                       | 473         |
 | [svgo-viewbox](https://www.npmjs.com/package/svgo-viewbox)                               | 24963       |
@@ -52,7 +54,7 @@
 | [webpack-mpa](https://www.npmjs.com/package/webpack-mpa)                                 | 7134        |
 | [webpack-mpa-next](https://www.npmjs.com/package/webpack-mpa-next)                       | 3289        |
 | [webpack-mpa-ts](https://www.npmjs.com/package/webpack-mpa-ts)                           | 2123        |
-| **Sum**                                                                                  | **1059871** |
+| **Sum**                                                                                  | **1059939** |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-stats`?
