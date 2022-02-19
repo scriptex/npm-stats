@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { writeFileSync } from 'fs';
 import { join, resolve } from 'path';
 
@@ -5,8 +6,8 @@ import magic from 'markdown-magic';
 import npmtotal from 'npmtotal';
 import { markdownTable } from 'markdown-table';
 
-import pkg from './package.json';
-import badgeConfig from './badge.json';
+import pkg from './package.json' assert { type: 'json' };
+import badgeConfig from './badge.json' assert { type: 'json' };
 
 const key = pkg.stats?.user;
 const __dirname = resolve();
