@@ -2,34 +2,24 @@
 	"name": "npm-stats",
 	"version": "1.0.0",
 	"description": "Statistics for NPM packages downloads",
-	"keywords": [],
+	"keywords": [
+		"NPM user",
+		"NPM downloads",
+		"NPM statistics"
+	],
 	"homepage": "https://atanas.info/projects/npm-stats.html",
 	"bugs": {
 		"url": "https://github.com/scriptex/npm-stats/issues",
-		"email": "scriptex.bg@gmail.com"
+		"email": "hi@atanas.info"
 	},
 	"license": "MIT",
-	"author": {
-		"name": "Atanas Atanasov",
-		"email": "scriptex.bg@gmail.com",
-		"url": "https://atanas.info"
-	},
-	"funding": [
-		{
-			"type": "individual",
-			"url": "https://www.paypal.me/scriptex"
-		},
-		{
-			"type": "patreon",
-			"url": "https://www.patreon.com/atanas"
-		},
-		{
-			"type": "individual",
-			"url": "https://ko-fi.com/scriptex"
-		}
-	],
+	"author": "Atanas Atanasov <hi@atanas.info> (https://atanas.info)",
+	"funding": "https://github.com/sponsors/scriptex",
 	"main": "index.mjs",
-	"repository": "https://github.com/scriptex/npm-stats",
+	"repository": {
+		"type": "git",
+		"url": "github:scriptex/npm-stats"
+	},
 	"scripts": {
 		"start": "node --experimental-json-modules index.mjs"
 	},

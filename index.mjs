@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { writeFileSync } from 'fs';
 import { join, resolve } from 'path';
 
