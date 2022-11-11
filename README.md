@@ -30,55 +30,10 @@
 
 <!-- Please do not modify this auto generated content -->
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
-| Name                                                                                     | Downloads   |
-| ---------------------------------------------------------------------------------------- | ----------- |
-| [@three11/accordion](https://www.npmjs.com/package/@three11/accordion)                   | 1221        |
-| [@three11/animate-top-offset](https://www.npmjs.com/package/@three11/animate-top-offset) | 7417        |
-| [@three11/debounce](https://www.npmjs.com/package/@three11/debounce)                     | 4424        |
-| [@three11/dom-helpers](https://www.npmjs.com/package/@three11/dom-helpers)               | 1185        |
-| [@three11/extract-query-arg](https://www.npmjs.com/package/@three11/extract-query-arg)   | 923         |
-| [@three11/infinite-scroll](https://www.npmjs.com/package/@three11/infinite-scroll)       | 4717        |
-| [@three11/istouch](https://www.npmjs.com/package/@three11/istouch)                       | 2230        |
-| [@three11/optisize](https://www.npmjs.com/package/@three11/optisize)                     | 54418       |
-| [@three11/scrollspy](https://www.npmjs.com/package/@three11/scrollspy)                   | 2532        |
-| [animateme](https://www.npmjs.com/package/animateme)                                     | 13381       |
-| [async-array-prototype](https://www.npmjs.com/package/async-array-prototype)             | 2695        |
-| [create-pwa](https://www.npmjs.com/package/create-pwa)                                   | 82906       |
-| [create-react-app-ts](https://www.npmjs.com/package/create-react-app-ts)                 | 4103        |
-| [dator](https://www.npmjs.com/package/dator)                                             | 3472        |
-| [gitlab-calendar](https://www.npmjs.com/package/gitlab-calendar)                         | 2606        |
-| [hover-media-query](https://www.npmjs.com/package/hover-media-query)                     | 12667       |
-| [html-head-component](https://www.npmjs.com/package/html-head-component)                 | 25533       |
-| [html5-form-validator](https://www.npmjs.com/package/html5-form-validator)               | 4769        |
-| [introscroll](https://www.npmjs.com/package/introscroll)                                 | 3787        |
-| [itcss](https://www.npmjs.com/package/itcss)                                             | 29373       |
-| [itscss](https://www.npmjs.com/package/itscss)                                           | 28357       |
-| [lastfm-ts-api](https://www.npmjs.com/package/lastfm-ts-api)                             | 1362        |
-| [localga](https://www.npmjs.com/package/localga)                                         | 23377       |
-| [node-mysql-client](https://www.npmjs.com/package/node-mysql-client)                     | 603         |
-| [npm-maintainer](https://www.npmjs.com/package/npm-maintainer)                           | 1398        |
-| [pass-score](https://www.npmjs.com/package/pass-score)                                   | 3692        |
-| [postcss-watch-folder](https://www.npmjs.com/package/postcss-watch-folder)               | 52206       |
-| [random-splice](https://www.npmjs.com/package/random-splice)                             | 3670        |
-| [react-accordion-ts](https://www.npmjs.com/package/react-accordion-ts)                   | 13559       |
-| [react-dropper](https://www.npmjs.com/package/react-dropper)                             | 2234        |
-| [react-round-carousel](https://www.npmjs.com/package/react-round-carousel)               | 16130       |
-| [react-svg-donuts](https://www.npmjs.com/package/react-svg-donuts)                       | 18648       |
-| [round-carousel-component](https://www.npmjs.com/package/round-carousel-component)       | 3181        |
-| [scriptex-socials](https://www.npmjs.com/package/scriptex-socials)                       | 31529       |
-| [scss-goodies](https://www.npmjs.com/package/scss-goodies)                               | 25185       |
-| [simple-calendar-widget](https://www.npmjs.com/package/simple-calendar-widget)           | 1989        |
-| [svg-symbol-sprite](https://www.npmjs.com/package/svg-symbol-sprite)                     | 11205       |
-| [svg64](https://www.npmjs.com/package/svg64)                                             | 153168      |
-| [svgo-add-viewbox](https://www.npmjs.com/package/svgo-add-viewbox)                       | 25158       |
-| [svgo-viewbox](https://www.npmjs.com/package/svgo-viewbox)                               | 41693       |
-| [touchsweep](https://www.npmjs.com/package/touchsweep)                                   | 57100       |
-| [typed-usa-states](https://www.npmjs.com/package/typed-usa-states)                       | 897472      |
-| [universal-github-client](https://www.npmjs.com/package/universal-github-client)         | 21750       |
-| [webpack-mpa](https://www.npmjs.com/package/webpack-mpa)                                 | 8577        |
-| [webpack-mpa-next](https://www.npmjs.com/package/webpack-mpa-next)                       | 4319        |
-| [webpack-mpa-ts](https://www.npmjs.com/package/webpack-mpa-ts)                           | 2760        |
-| **Sum**                                                                                  | **1714681** |
+| Name                                             | Downloads                                                                                                                                                                                                                            |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [message](https://www.npmjs.com/package/message) | feign.FeignException$ServiceUnavailable: [503 Service Unavailable] during [GET] to [https://registry.npmjs.org/-/v1/search?size=250&text=maintainer%3Ascriptex] [SearchClient#search(String)]: [{"error":"Service Unavailable"}]     |
+| **Sum**                                          | **feign.FeignException$ServiceUnavailable: [503 Service Unavailable] during [GET] to [https://registry.npmjs.org/-/v1/search?size=250&text=maintainer%3Ascriptex] [SearchClient#search(String)]: [{"error":"Service Unavailable"}]** |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-stats`?
