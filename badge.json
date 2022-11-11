@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "label": "NPM",
-  "message": "feign.FeignException$ServiceUnavailable: [503 Service Unavailable] during [GET] to [https://registry.npmjs.org/-/v1/search?size=250&text=maintainer%3Ascriptex] [SearchClient#search(String)]: [{\"error\":\"Service Unavailable\"}] Downloads",
+  "message": "1717999 Downloads",
   "color": "orange",
   "style": "for-the-badge",
   "namedLogo": "npm"
