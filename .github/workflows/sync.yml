@@ -21,7 +21,7 @@ jobs:
                   yarn start
             - name: Add
               run: |
-                  git config --global user.email "hi@atanas.info"
+                  git config --global user.email "hi+github@atanas.info"
                   git config --global user.name "Atanas Atanasov"
                   git status
                   git add .
