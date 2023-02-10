@@ -30,56 +30,13 @@
 
 <!-- Please do not modify this auto generated content -->
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
-| Name                                                                                     | Downloads   |
-| ---------------------------------------------------------------------------------------- | ----------- |
-| [@three11/accordion](https://www.npmjs.com/package/@three11/accordion)                   | 1436        |
-| [@three11/animate-top-offset](https://www.npmjs.com/package/@three11/animate-top-offset) | 7597        |
-| [@three11/debounce](https://www.npmjs.com/package/@three11/debounce)                     | 4864        |
-| [@three11/dom-helpers](https://www.npmjs.com/package/@three11/dom-helpers)               | 1315        |
-| [@three11/extract-query-arg](https://www.npmjs.com/package/@three11/extract-query-arg)   | 1056        |
-| [@three11/infinite-scroll](https://www.npmjs.com/package/@three11/infinite-scroll)       | 5028        |
-| [@three11/istouch](https://www.npmjs.com/package/@three11/istouch)                       | 2519        |
-| [@three11/optisize](https://www.npmjs.com/package/@three11/optisize)                     | 56568       |
-| [@three11/scrollspy](https://www.npmjs.com/package/@three11/scrollspy)                   | 2684        |
-| [animateme](https://www.npmjs.com/package/animateme)                                     | 15354       |
-| [async-array-prototype](https://www.npmjs.com/package/async-array-prototype)             | 4213        |
-| [attr-i18n](https://www.npmjs.com/package/attr-i18n)                                     | 319         |
-| [create-pwa](https://www.npmjs.com/package/create-pwa)                                   | 87889       |
-| [create-react-app-ts](https://www.npmjs.com/package/create-react-app-ts)                 | 4732        |
-| [dator](https://www.npmjs.com/package/dator)                                             | 5043        |
-| [gitlab-calendar](https://www.npmjs.com/package/gitlab-calendar)                         | 4103        |
-| [hover-media-query](https://www.npmjs.com/package/hover-media-query)                     | 14250       |
-| [html-head-component](https://www.npmjs.com/package/html-head-component)                 | 27425       |
-| [html5-form-validator](https://www.npmjs.com/package/html5-form-validator)               | 6311        |
-| [introscroll](https://www.npmjs.com/package/introscroll)                                 | 5272        |
-| [itcss](https://www.npmjs.com/package/itcss)                                             | 31317       |
-| [itscss](https://www.npmjs.com/package/itscss)                                           | 31323       |
-| [lastfm-ts-api](https://www.npmjs.com/package/lastfm-ts-api)                             | 2860        |
-| [localga](https://www.npmjs.com/package/localga)                                         | 25029       |
-| [node-mysql-client](https://www.npmjs.com/package/node-mysql-client)                     | 626         |
-| [npm-maintainer](https://www.npmjs.com/package/npm-maintainer)                           | 2896        |
-| [pass-score](https://www.npmjs.com/package/pass-score)                                   | 5192        |
-| [postcss-watch-folder](https://www.npmjs.com/package/postcss-watch-folder)               | 55624       |
-| [random-splice](https://www.npmjs.com/package/random-splice)                             | 5234        |
-| [react-accordion-ts](https://www.npmjs.com/package/react-accordion-ts)                   | 17835       |
-| [react-dropper](https://www.npmjs.com/package/react-dropper)                             | 3693        |
-| [react-round-carousel](https://www.npmjs.com/package/react-round-carousel)               | 18681       |
-| [react-svg-donuts](https://www.npmjs.com/package/react-svg-donuts)                       | 23693       |
-| [round-carousel-component](https://www.npmjs.com/package/round-carousel-component)       | 5177        |
-| [scriptex-socials](https://www.npmjs.com/package/scriptex-socials)                       | 35406       |
-| [scss-goodies](https://www.npmjs.com/package/scss-goodies)                               | 27925       |
-| [simple-calendar-widget](https://www.npmjs.com/package/simple-calendar-widget)           | 3496        |
-| [svg-symbol-sprite](https://www.npmjs.com/package/svg-symbol-sprite)                     | 17468       |
-| [svg64](https://www.npmjs.com/package/svg64)                                             | 185582      |
-| [svgo-add-viewbox](https://www.npmjs.com/package/svgo-add-viewbox)                       | 39575       |
-| [svgo-viewbox](https://www.npmjs.com/package/svgo-viewbox)                               | 45697       |
-| [touchsweep](https://www.npmjs.com/package/touchsweep)                                   | 63917       |
-| [typed-usa-states](https://www.npmjs.com/package/typed-usa-states)                       | 946655      |
-| [universal-github-client](https://www.npmjs.com/package/universal-github-client)         | 23285       |
-| [webpack-mpa](https://www.npmjs.com/package/webpack-mpa)                                 | 8940        |
-| [webpack-mpa-next](https://www.npmjs.com/package/webpack-mpa-next)                       | 4595        |
-| [webpack-mpa-ts](https://www.npmjs.com/package/webpack-mpa-ts)                           | 2974        |
-| **Sum**                                                                                  | **1892673** |
+| Name                                                 | Downloads                                                                            |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [error](https://www.npmjs.com/package/error)         | Internal Server Error                                                                |
+| [path](https://www.npmjs.com/package/path)           | /npm-stat/api/download-counts                                                        |
+| [status](https://www.npmjs.com/package/status)       | 0                                                                                    |
+| [timestamp](https://www.npmjs.com/package/timestamp) | 2023-02-10T06:21:18.953+00:00                                                        |
+| **Sum**                                              | **Internal Server Error/npm-stat/api/download-counts02023-02-10T06:21:18.953+00:00** |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-stats`?
