@@ -41,7 +41,7 @@
 | [@three11/istouch](https://www.npmjs.com/package/@three11/istouch)                       | 3472        |
 | [@three11/optisize](https://www.npmjs.com/package/@three11/optisize)                     | 59312       |
 | [@three11/scrollspy](https://www.npmjs.com/package/@three11/scrollspy)                   | 3164        |
-| [animateme](https://www.npmjs.com/package/animateme)                                     | 25110       |
+| [animateme](https://www.npmjs.com/package/animateme)                                     | 25532       |
 | [async-array-prototype](https://www.npmjs.com/package/async-array-prototype)             | 11722       |
 | [attr-i18n](https://www.npmjs.com/package/attr-i18n)                                     | 7574        |
 | [create-pwa](https://www.npmjs.com/package/create-pwa)                                   | 104723      |
@@ -50,9 +50,9 @@
 | [gitlab-calendar](https://www.npmjs.com/package/gitlab-calendar)                         | 11455       |
 | [hover-media-query](https://www.npmjs.com/package/hover-media-query)                     | 21774       |
 | [html-head-component](https://www.npmjs.com/package/html-head-component)                 | 36164       |
-| [html5-form-validator](https://www.npmjs.com/package/html5-form-validator)               | 13886       |
-| [introscroll](https://www.npmjs.com/package/introscroll)                                 | 12730       |
-| [itcss](https://www.npmjs.com/package/itcss)                                             | 40272       |
+| [html5-form-validator](https://www.npmjs.com/package/html5-form-validator)               | 13981       |
+| [introscroll](https://www.npmjs.com/package/introscroll)                                 | 12793       |
+| [itcss](https://www.npmjs.com/package/itcss)                                             | 40289       |
 | [itscss](https://www.npmjs.com/package/itscss)                                           | 44779       |
 | [lastfm-ts-api](https://www.npmjs.com/package/lastfm-ts-api)                             | 10814       |
 | [localga](https://www.npmjs.com/package/localga)                                         | 32648       |
@@ -79,7 +79,7 @@
 | [webpack-mpa](https://www.npmjs.com/package/webpack-mpa)                                 | 10449       |
 | [webpack-mpa-next](https://www.npmjs.com/package/webpack-mpa-next)                       | 5475        |
 | [webpack-mpa-ts](https://www.npmjs.com/package/webpack-mpa-ts)                           | 3535        |
-| **Sum**                                                                                  | **2663473** |
+| **Sum**                                                                                  | **2664070** |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-stats`?
