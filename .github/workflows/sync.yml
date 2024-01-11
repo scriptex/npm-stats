@@ -25,7 +25,7 @@ jobs:
                   git config --global user.name "Atanas Atanasov"
                   git status
                   git add .
-                  git commit -m ":package: Update downloads --allow-empty"
+                  git commit -m ":package: Update downloads" --allow-empty
             - name: Push
               uses: ad-m/github-push-action@master
               with:
