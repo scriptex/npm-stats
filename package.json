@@ -25,8 +25,7 @@
 	},
 	"dependencies": {
 		"markdown-magic": "2.6.1",
-		"markdown-table": "3.0.3",
-		"npmtotal": "1.4.1"
+		"markdown-table": "3.0.3"
 	},
 	"private": true,
 	"stats": {

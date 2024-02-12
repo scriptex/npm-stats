@@ -2,7 +2,6 @@ import { writeFileSync } from 'fs';
 import { join, resolve } from 'path';
 
 import magic from 'markdown-magic';
-import npmtotal from 'npmtotal';
 import { markdownTable } from 'markdown-table';
 
 import pkg from './package.json' assert { type: 'json' };
@@ -32,26 +31,38 @@ function generateMarkdownTable(tableRows, sum) {
 (async () => {
 	console.log(`Fetching data for user ${key} from NPM. Please wait...`);
 
-	const stats = await npmtotal(
-		key,
-		pkg.stats?.startDate
-			? {
-					startDate: pkg.stats.startDate
-			  }
-			: undefined
-	);
+	const today = new Date();
+	const endDate = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
 
-	const sortedStats = stats.stats
-		.sort(([aName], [bName]) => (aName > bName ? 1 : aName < bName ? -1 : 0))
+	const own = await fetch(`https://api.npms.io/v2/search?q=author:${key}&size=250&from=0`).then(r => r.json());
+	const co = await fetch(`https://api.npms.io/v2/search?q=maintainer:${key}&size=250&from=0`).then(r => r.json());
+	const names = Array.from(new Set([...own.results, ...co.results].map(p => p.package.name)));
+	const data = [];
+
+	for (const name of names) {
+		const count = await fetch(`https://api.npmjs.org/downloads/range/${pkg.stats.startDate}:${endDate}/${name}`)
+			.then(r => r.json())
+			.then(response => response.downloads.map(item => item.downloads).reduce((sum, curr) => sum + curr, 0));
+
+		data.push({
+			name,
+			count
+		});
+	}
+
+	const sum = data.reduce((sum, curr) => sum + curr.count, 0);
+
+	const sortedStats = data
+		.sort(({ name: aName }, { name: bName }) => (aName > bName ? 1 : aName < bName ? -1 : 0))
 		.map(item => {
-			const [name, count] = item;
+			const { name, count } = item;
 
 			return [`[${name}](https://www.npmjs.com/package/${name})`, count];
 		});
 
-	badgeConfig.message = `${stats.sum} Downloads`;
+	badgeConfig.message = `${sum} Downloads`;
 
 	await writeFileSync('./badge.json', JSON.stringify(badgeConfig, null, 2));
 
-	generateMarkdownTable(sortedStats, stats.sum);
+	generateMarkdownTable(sortedStats, sum);
 })();
