@@ -30,7 +30,6 @@
 
 <!-- Please do not modify this auto generated content -->
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
-
 | Name                                                                                     | Downloads   |
 | ---------------------------------------------------------------------------------------- | ----------- |
 | [@three11/accordion](https://www.npmjs.com/package/@three11/accordion)                   | 632         |
@@ -38,47 +37,46 @@
 | [@three11/debounce](https://www.npmjs.com/package/@three11/debounce)                     | 1959        |
 | [@three11/dom-helpers](https://www.npmjs.com/package/@three11/dom-helpers)               | 527         |
 | [@three11/extract-query-arg](https://www.npmjs.com/package/@three11/extract-query-arg)   | 478         |
-| [@three11/infinite-scroll](https://www.npmjs.com/package/@three11/infinite-scroll)       | 1612        |
-| [@three11/istouch](https://www.npmjs.com/package/@three11/istouch)                       | 1682        |
-| [@three11/optisize](https://www.npmjs.com/package/@three11/optisize)                     | 7691        |
+| [@three11/infinite-scroll](https://www.npmjs.com/package/@three11/infinite-scroll)       | 1603        |
+| [@three11/istouch](https://www.npmjs.com/package/@three11/istouch)                       | 1673        |
+| [@three11/optisize](https://www.npmjs.com/package/@three11/optisize)                     | 7665        |
 | [@three11/scrollspy](https://www.npmjs.com/package/@three11/scrollspy)                   | 1374        |
 | [animateme](https://www.npmjs.com/package/animateme)                                     | 15674       |
 | [async-array-prototype](https://www.npmjs.com/package/async-array-prototype)             | 11954       |
-| [create-pwa](https://www.npmjs.com/package/create-pwa)                                   | 31261       |
-| [create-react-app-ts](https://www.npmjs.com/package/create-react-app-ts)                 | 2539        |
+| [create-pwa](https://www.npmjs.com/package/create-pwa)                                   | 31150       |
+| [create-react-app-ts](https://www.npmjs.com/package/create-react-app-ts)                 | 2538        |
 | [dator](https://www.npmjs.com/package/dator)                                             | 11813       |
-| [gitlab-calendar](https://www.npmjs.com/package/gitlab-calendar)                         | 12157       |
-| [hover-media-query](https://www.npmjs.com/package/hover-media-query)                     | 12466       |
-| [html-head-component](https://www.npmjs.com/package/html-head-component)                 | 14881       |
+| [gitlab-calendar](https://www.npmjs.com/package/gitlab-calendar)                         | 12152       |
+| [hover-media-query](https://www.npmjs.com/package/hover-media-query)                     | 12457       |
+| [html-head-component](https://www.npmjs.com/package/html-head-component)                 | 14862       |
 | [html5-form-validator](https://www.npmjs.com/package/html5-form-validator)               | 12009       |
 | [introscroll](https://www.npmjs.com/package/introscroll)                                 | 11881       |
-| [itcss](https://www.npmjs.com/package/itcss)                                             | 14913       |
-| [itscss](https://www.npmjs.com/package/itscss)                                           | 21714       |
-| [localga](https://www.npmjs.com/package/localga)                                         | 12737       |
-| [node-mysql-client](https://www.npmjs.com/package/node-mysql-client)                     | 166         |
+| [itcss](https://www.npmjs.com/package/itcss)                                             | 14899       |
+| [itscss](https://www.npmjs.com/package/itscss)                                           | 21695       |
+| [localga](https://www.npmjs.com/package/localga)                                         | 12728       |
+| [node-mysql-client](https://www.npmjs.com/package/node-mysql-client)                     | 164         |
 | [pass-score](https://www.npmjs.com/package/pass-score)                                   | 12923       |
-| [postcss-watch-folder](https://www.npmjs.com/package/postcss-watch-folder)               | 24451       |
+| [postcss-watch-folder](https://www.npmjs.com/package/postcss-watch-folder)               | 24418       |
 | [random-splice](https://www.npmjs.com/package/random-splice)                             | 12034       |
-| [react-accordion-ts](https://www.npmjs.com/package/react-accordion-ts)                   | 26922       |
+| [react-accordion-ts](https://www.npmjs.com/package/react-accordion-ts)                   | 26904       |
 | [react-dropper](https://www.npmjs.com/package/react-dropper)                             | 11572       |
-| [react-round-carousel](https://www.npmjs.com/package/react-round-carousel)               | 20338       |
-| [react-svg-donuts](https://www.npmjs.com/package/react-svg-donuts)                       | 25685       |
-| [round-carousel-component](https://www.npmjs.com/package/round-carousel-component)       | 13954       |
-| [scriptex-socials](https://www.npmjs.com/package/scriptex-socials)                       | 26841       |
-| [scss-goodies](https://www.npmjs.com/package/scss-goodies)                               | 21454       |
-| [simple-calendar-widget](https://www.npmjs.com/package/simple-calendar-widget)           | 11277       |
-| [svg-symbol-sprite](https://www.npmjs.com/package/svg-symbol-sprite)                     | 47285       |
-| [svg64](https://www.npmjs.com/package/svg64)                                             | 218932      |
-| [svgo-add-viewbox](https://www.npmjs.com/package/svgo-add-viewbox)                       | 86291       |
-| [svgo-viewbox](https://www.npmjs.com/package/svgo-viewbox)                               | 30830       |
-| [touchsweep](https://www.npmjs.com/package/touchsweep)                                   | 48145       |
-| [typed-usa-states](https://www.npmjs.com/package/typed-usa-states)                       | 382836      |
-| [universal-github-client](https://www.npmjs.com/package/universal-github-client)         | 13012       |
-| [webpack-mpa](https://www.npmjs.com/package/webpack-mpa)                                 | 2577        |
+| [react-round-carousel](https://www.npmjs.com/package/react-round-carousel)               | 20291       |
+| [react-svg-donuts](https://www.npmjs.com/package/react-svg-donuts)                       | 25631       |
+| [round-carousel-component](https://www.npmjs.com/package/round-carousel-component)       | 13942       |
+| [scriptex-socials](https://www.npmjs.com/package/scriptex-socials)                       | 26820       |
+| [scss-goodies](https://www.npmjs.com/package/scss-goodies)                               | 21445       |
+| [simple-calendar-widget](https://www.npmjs.com/package/simple-calendar-widget)           | 11276       |
+| [svg-symbol-sprite](https://www.npmjs.com/package/svg-symbol-sprite)                     | 47260       |
+| [svg64](https://www.npmjs.com/package/svg64)                                             | 218676      |
+| [svgo-add-viewbox](https://www.npmjs.com/package/svgo-add-viewbox)                       | 86181       |
+| [svgo-viewbox](https://www.npmjs.com/package/svgo-viewbox)                               | 30804       |
+| [touchsweep](https://www.npmjs.com/package/touchsweep)                                   | 48078       |
+| [typed-usa-states](https://www.npmjs.com/package/typed-usa-states)                       | 381481      |
+| [universal-github-client](https://www.npmjs.com/package/universal-github-client)         | 13003       |
+| [webpack-mpa](https://www.npmjs.com/package/webpack-mpa)                                 | 2575        |
 | [webpack-mpa-next](https://www.npmjs.com/package/webpack-mpa-next)                       | 1567        |
 | [webpack-mpa-ts](https://www.npmjs.com/package/webpack-mpa-ts)                           | 1132        |
-| **Sum**                                                                                  | **1242978** |
-
+| **Sum**                                                                                  | **1240700** |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-stats`?
