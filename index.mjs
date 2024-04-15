@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
 import { join, resolve } from 'path';
 
-import magic from 'markdown-magic';
+import { markdownMagic } from 'markdown-magic';
 import { markdownTable } from 'markdown-table';
 
 import pkg from './package.json' assert { type: 'json' };
@@ -14,19 +14,55 @@ if (!key) {
 	throw new Error('Please add `user` in the `stats` field of your package.json');
 }
 
-function generateMarkdownTable(tableRows, sum) {
-	const config = {
-		transforms: {
-			PACKAGES() {
-				return markdownTable([['Name', 'Downloads'], ...tableRows, ['**Sum**', `**${sum}**`]]);
-			}
-		}
-	};
-
-	magic(join(__dirname, 'README.md'), config, d => {
-		console.log(`Updated total downloads ${sum}`);
-	});
-}
+const names = [
+	'@three11/accordion',
+	'@three11/animate-top-offset',
+	'@three11/debounce',
+	'@three11/dom-helpers',
+	'@three11/extract-query-arg',
+	'@three11/infinite-scroll',
+	'@three11/istouch',
+	'@three11/optisize',
+	'@three11/scrollspy',
+	'animateme',
+	'async-array-prototype',
+	'attr-i18n',
+	'create-pwa',
+	'create-react-app-ts',
+	'dator',
+	'gitlab-calendar',
+	'hover-media-query',
+	'html-head-component',
+	'html5-form-validator',
+	'introscroll',
+	'itcss',
+	'itscss',
+	'lastfm-ts-api',
+	'localga',
+	'node-mysql-client',
+	'npm-maintainer',
+	'pass-score',
+	'postcss-watch-folder',
+	'random-splice',
+	'react-accordion-ts',
+	'react-dropper',
+	'react-round-carousel',
+	'react-svg-donuts',
+	'round-carousel-component',
+	'scriptex-socials',
+	'scss-goodies',
+	'simple-calendar-widget',
+	'svg-symbol-sprite',
+	'svg64',
+	'svgo-add-viewbox',
+	'svgo-viewbox',
+	'touchsweep',
+	'typed-usa-states',
+	'universal-github-client',
+	'webpack-mpa',
+	'webpack-mpa-next',
+	'webpack-mpa-ts'
+];
 
 (async () => {
 	console.log(`Fetching data for user ${key} from NPM. Please wait...`);
@@ -34,9 +70,6 @@ function generateMarkdownTable(tableRows, sum) {
 	const today = new Date();
 	const endDate = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
 
-	const own = await fetch(`https://api.npms.io/v2/search?q=author:${key}&size=250&from=0`).then(r => r.json());
-	const co = await fetch(`https://api.npms.io/v2/search?q=maintainer:${key}&size=250&from=0`).then(r => r.json());
-	const names = Array.from(new Set([...own.results, ...co.results].map(p => p.package.name)));
 	const data = [];
 
 	for (const name of names) {
@@ -64,5 +97,10 @@ function generateMarkdownTable(tableRows, sum) {
 
 	await writeFileSync('./badge.json', JSON.stringify(badgeConfig, null, 2));
 
-	generateMarkdownTable(sortedStats, sum);
+	await markdownMagic(join(__dirname, 'README.md'), {
+		matchWord: 'AUTO-GENERATED-CONTENT',
+		transforms: {
+			customTransform: () => markdownTable([['Name', 'Downloads'], ...sortedStats, ['**Sum**', `**${sum}**`]])
+		}
+	});
 })();
