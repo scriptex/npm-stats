@@ -30,6 +30,7 @@
 
 <!-- Please do not modify this auto generated content -->
 <!-- AUTO-GENERATED-CONTENT:START (customTransform) -->
+
 | Name                                                                                     | Downloads   |
 | ---------------------------------------------------------------------------------------- | ----------- |
 | [@three11/accordion](https://www.npmjs.com/package/@three11/accordion)                   | 578         |
@@ -80,25 +81,8 @@
 | [webpack-mpa-next](https://www.npmjs.com/package/webpack-mpa-next)                       | 1465        |
 | [webpack-mpa-ts](https://www.npmjs.com/package/webpack-mpa-ts)                           | 1119        |
 | **Sum**                                                                                  | **1273338** |
+
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-### Wanna use `npm-stats`?
-
-1. `Fork` this repository.
-2. Add your npm username/author in `package.json` as `stats.user` key.
-
-```js
-{
-  "stats": {
-    "user": "scriptex"
-  }
-}
-```
-
-1. Run `yarn` and then `yarn start` to generate the Downloads.
-2. The repo comes with a daily CRON job that updates the Downloads.
-3. For updating the badge replace `scriptex` in the badge config (`badje.json`) with your Github username/organization name.
-4. Enable `GitHub Actions` for your forked repo, as it is not enabled by default for forks.
 
 ## License
 
