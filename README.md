@@ -30,7 +30,6 @@
 
 <!-- Please do not modify this auto generated content -->
 <!-- AUTO-GENERATED-CONTENT:START (customTransform) -->
-
 | Name                                                                                     | Downloads   |
 | ---------------------------------------------------------------------------------------- | ----------- |
 | [@three11/accordion](https://www.npmjs.com/package/@three11/accordion)                   | 578         |
@@ -81,7 +80,6 @@
 | [webpack-mpa-next](https://www.npmjs.com/package/webpack-mpa-next)                       | 1465        |
 | [webpack-mpa-ts](https://www.npmjs.com/package/webpack-mpa-ts)                           | 1119        |
 | **Sum**                                                                                  | **1273338** |
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## License
