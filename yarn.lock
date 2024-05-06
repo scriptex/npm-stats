@@ -953,10 +953,10 @@ lru-queue@^0.1.0:
   dependencies:
     es5-ext "~0.10.2"
 
-markdown-magic@3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-3.0.9.tgz#5e1f217746fa5dc400d6401d8ecd5e65713005db"
-  integrity sha512-qrW1UtTXEvrg3h0mSsqK4x2WRzGRKSmEw08FqZrjMGMamn0dlSsYvTcrBLoVjBM6ToYdyE0Sonxbz04wE07+Cg==
+markdown-magic@3.0.10:
+  version "3.0.10"
+  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-3.0.10.tgz#63df058153ee0069a0b0eceba039e84fe06ed638"
+  integrity sha512-CgZgraqeInFuffG2Vruba4xNQ7jxzqFBbwPw599fhbFOP24A32euY+pdZuF3eMkqoAPJg3Ry6RISGMUZTkNCYg==
   dependencies:
     "@davidwells/md-utils" "^0.0.40"
     "@technote-space/doctoc" "2.4.7"
