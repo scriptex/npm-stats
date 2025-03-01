@@ -931,6 +931,11 @@ json-alexander@^0.1.10:
   resolved "https://registry.yarnpkg.com/json-alexander/-/json-alexander-0.1.10.tgz#537dcc33eb05ccf6d0479750b4fe580087fd7c9a"
   integrity sha512-+qykmkSBGK11ndn36sES0XM0vEJozenAbiI5Gk07FpRpwbSQQViIHa7Hm+9Bju92nfp44+i0V+Rz43XcARPImA==
 
+json-alexander@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/json-alexander/-/json-alexander-0.1.13.tgz#7930eb77563c263641677dc4c979724ce462b3f6"
+  integrity sha512-s84SuqZwnb7mGJB03sGlcdx458FR91Uwwy2lKJBDN+TBJ7ARbyP/ssGnjW9t5QyxwG/b23W22Dz9Ga6nuyHqnA==
+
 kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
@@ -953,10 +958,10 @@ lru-queue@^0.1.0:
   dependencies:
     es5-ext "~0.10.2"
 
-markdown-magic@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-3.3.0.tgz#8047f1e45ff9d43f7a7fcf2ee9ffa88b26451c1a"
-  integrity sha512-zG+pip/THd8vBKefUdVvshLlD6XeNwNXc/Ws8lGBGt0/xLAc9MGsJaUTnpaqe1grhw9WbD4SdrgVf9n5VSlqjg==
+markdown-magic@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-3.3.3.tgz#92a08b5536777140eec4955a1ca314447c275a9d"
+  integrity sha512-lDUTcZ4hQeFqLNkCxcXuV9PxXMLc4x02Tab1NcOijTOQtBYRzIfj71DUuD3osC96ilpbR3DVYdog/rHUNlMvYA==
   dependencies:
     "@davidwells/md-utils" "^0.0.40"
     "@technote-space/doctoc" "2.4.7"
@@ -968,8 +973,9 @@ markdown-magic@3.3.0:
     micro-mdx-parser "^1.1.0"
     mri "^1.2.0"
     node-fetch "^2.7.0"
-    oparser "^3.0.13"
+    oparser "^3.0.22"
     smart-glob "^1.0.2"
+    string-width "^4.2.3"
     sync-request "^6.1.0"
 
 markdown-table@3.0.4:
@@ -1220,12 +1226,19 @@ object.assign@^4.1.5:
     has-symbols "^1.0.3"
     object-keys "^1.1.1"
 
-oparser@^3.0.1, oparser@^3.0.13, oparser@^3.0.4:
+oparser@^3.0.1, oparser@^3.0.4:
   version "3.0.15"
   resolved "https://registry.yarnpkg.com/oparser/-/oparser-3.0.15.tgz#d2f5917c2271a8b9b2339f6cc5f6600ba465844e"
   integrity sha512-mkT1yt6usCu8sNyr9eBM0LKkVbxlQ7kQnNPMC3DnsNbC+PxrFefZfhfZPBDBYTCb8PKkq4G0mQH23EwpmS/aoQ==
   dependencies:
     json-alexander "^0.1.10"
+
+oparser@^3.0.22:
+  version "3.0.22"
+  resolved "https://registry.yarnpkg.com/oparser/-/oparser-3.0.22.tgz#c813856bf52caaa54860b6a158040f059cf09ca4"
+  integrity sha512-9FLmBQ0Ut+56q7X4uvPwXG+NgvHecx3QwSqFhc/qC19xvogNt2HfXm3HrZR480hXOZKHxazudYY6srRaaT2uxQ==
+  dependencies:
+    json-alexander "^0.1.13"
 
 parse-cache-control@^1.0.1:
   version "1.0.1"
@@ -1425,7 +1438,7 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
-string-width@^4.1.0, string-width@^4.2.0:
+string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
