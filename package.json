@@ -24,7 +24,7 @@
 		"start": "node --experimental-json-modules index.mjs"
 	},
 	"dependencies": {
-		"markdown-magic": "3.3.0",
+		"markdown-magic": "3.4.0",
 		"markdown-table": "3.0.4"
 	},
 	"private": true,
