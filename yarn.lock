@@ -464,10 +464,10 @@ lru-queue@^0.1.0:
   dependencies:
     es5-ext "~0.10.2"
 
-markdown-magic@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-3.4.0.tgz#5272c74b6ddbb5a496ba1065f5b86248086de2fc"
-  integrity sha512-T6NDVvl6EhdByyevQRGCs/0JCrc3oR1CP43bGgYDeDRjod6+PijXH3DjHvCBdAGIfDipquXN8Ao2KPEe1VeJng==
+markdown-magic@3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-3.4.1.tgz#96f2d354ebb24322625b333a92665a757f0d209f"
+  integrity sha512-i/hK2l9Y840v+wPQMjTpNpqFMOcKGoDDPKcHLe+oozYuokNC3VU6xGAF3062jrfSFvlzUf8IrrVaBR13BIAxWw==
   dependencies:
     "@davidwells/md-utils" "^0.0.44"
     globrex "^0.1.2"
