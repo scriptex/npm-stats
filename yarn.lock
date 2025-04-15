@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@davidwells/md-utils@^0.0.44":
-  version "0.0.44"
-  resolved "https://registry.yarnpkg.com/@davidwells/md-utils/-/md-utils-0.0.44.tgz#958bcc1b6f8f31b64821eabab3e98134ad14bbf6"
-  integrity sha512-5iYHtkuN4UypeubBllT4GkKesdFh3+CHC7fq8AiS6B0MlPsacRSbCzK77p7TD4DklnmVSS4Y2PA1LKN6AOx7mQ==
+"@davidwells/md-utils@^0.0.46":
+  version "0.0.46"
+  resolved "https://registry.yarnpkg.com/@davidwells/md-utils/-/md-utils-0.0.46.tgz#15a28d6145ddecffe721d1e0b36625dcc0def6a7"
+  integrity sha512-A7+rgQG80Wil5EufA1/fYRuOFAWzOwWWcu/XP3wDUq5Lyl1gRK16CEgW/abyZBb16uNciXD/CxqNuFosX/2tmQ==
   dependencies:
     gray-matter "^4.0.3"
     micro-mdx-parser "^1.1.1"
@@ -464,21 +464,23 @@ lru-queue@^0.1.0:
   dependencies:
     es5-ext "~0.10.2"
 
-markdown-magic@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-3.4.1.tgz#96f2d354ebb24322625b333a92665a757f0d209f"
-  integrity sha512-i/hK2l9Y840v+wPQMjTpNpqFMOcKGoDDPKcHLe+oozYuokNC3VU6xGAF3062jrfSFvlzUf8IrrVaBR13BIAxWw==
+markdown-magic@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-3.4.2.tgz#07f5b22ee1ba83b992e9d68d75aa4378f10f6ac7"
+  integrity sha512-Ip5DVkllDiXPqBmHInXbZ92B+jlrJB+keKL5HmBcgfGO3IrEvCWXZayYeTNctf6yGkUY+r0ReC5iGjiOgK7uFA==
   dependencies:
-    "@davidwells/md-utils" "^0.0.44"
+    "@davidwells/md-utils" "^0.0.46"
     globrex "^0.1.2"
     gray-matter "^4.0.3"
     is-glob "^4.0.3"
     is-local-path "^0.1.6"
     is-valid-path "^0.1.1"
     micro-mdx-parser "^1.1.0"
+    module-alias "^2.2.3"
     mri "^1.2.0"
     node-fetch "^2.7.0"
     oparser "^3.0.22"
+    punycode "^2.3.1"
     smart-glob "^1.0.2"
     string-width "^4.2.3"
     sync-request "^6.1.0"
@@ -520,6 +522,11 @@ mime-types@^2.1.12:
   integrity sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==
   dependencies:
     mime-db "1.52.0"
+
+module-alias@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/module-alias/-/module-alias-2.2.3.tgz#ec2e85c68973bda6ab71ce7c93b763ec96053221"
+  integrity sha512-23g5BFj4zdQL/b6tor7Ji+QY4pEfNH784BMslY9Qb0UnJWRAt+lQGLYmRaM0KDBwIG23ffEBELhZDP2rhi9f/Q==
 
 mri@^1.2.0:
   version "1.2.0"
@@ -578,6 +585,11 @@ promisify-child-process@^4.1.1:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/promisify-child-process/-/promisify-child-process-4.1.2.tgz#83638088b67f8093d14323e2aaa28b5424d3a7e5"
   integrity sha512-APnkIgmaHNJpkAn7k+CrJSi9WMuff5ctYFbD0CO2XIPkM8yO7d/ShouU2clywbpHV/DUsyc4bpJCsNgddNtx4g==
+
+punycode@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"
+  integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
 qs@^6.4.0:
   version "6.12.1"
