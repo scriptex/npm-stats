@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@davidwells/md-utils@^0.0.46":
-  version "0.0.46"
-  resolved "https://registry.yarnpkg.com/@davidwells/md-utils/-/md-utils-0.0.46.tgz#15a28d6145ddecffe721d1e0b36625dcc0def6a7"
-  integrity sha512-A7+rgQG80Wil5EufA1/fYRuOFAWzOwWWcu/XP3wDUq5Lyl1gRK16CEgW/abyZBb16uNciXD/CxqNuFosX/2tmQ==
+"@davidwells/md-utils@0.0.52":
+  version "0.0.52"
+  resolved "https://registry.yarnpkg.com/@davidwells/md-utils/-/md-utils-0.0.52.tgz#d8973ff33660f7e5eac65fa174f30256af7ae84f"
+  integrity sha512-GsL5HlYpLtA4WhYkkYgfZ9zLWxCpOVuHzXXGuVOf7vNZi8m5DQf3GunE4f1Pcg+rsTWuVT+aERmElX8U/4qE9Q==
   dependencies:
     gray-matter "^4.0.3"
     micro-mdx-parser "^1.1.1"
@@ -464,12 +464,12 @@ lru-queue@^0.1.0:
   dependencies:
     es5-ext "~0.10.2"
 
-markdown-magic@3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-3.4.2.tgz#07f5b22ee1ba83b992e9d68d75aa4378f10f6ac7"
-  integrity sha512-Ip5DVkllDiXPqBmHInXbZ92B+jlrJB+keKL5HmBcgfGO3IrEvCWXZayYeTNctf6yGkUY+r0ReC5iGjiOgK7uFA==
+markdown-magic@3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-3.6.1.tgz#56213e48e08607520b85f6dc31f9bf6794e13eb8"
+  integrity sha512-uLOjI8fYpuRHYSxLJCRl7oz++2M2bJYoSX0e+V2liHoNZsDT/q8xXZrzLAaW5uVPpqIObrqG6U5gKPvveDvFkA==
   dependencies:
-    "@davidwells/md-utils" "^0.0.46"
+    "@davidwells/md-utils" "0.0.52"
     globrex "^0.1.2"
     gray-matter "^4.0.3"
     is-glob "^4.0.3"
