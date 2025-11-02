@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@davidwells/md-utils@0.0.52":
-  version "0.0.52"
-  resolved "https://registry.yarnpkg.com/@davidwells/md-utils/-/md-utils-0.0.52.tgz#d8973ff33660f7e5eac65fa174f30256af7ae84f"
-  integrity sha512-GsL5HlYpLtA4WhYkkYgfZ9zLWxCpOVuHzXXGuVOf7vNZi8m5DQf3GunE4f1Pcg+rsTWuVT+aERmElX8U/4qE9Q==
+"@davidwells/md-utils@0.0.53":
+  version "0.0.53"
+  resolved "https://registry.yarnpkg.com/@davidwells/md-utils/-/md-utils-0.0.53.tgz#fb157b0e5546dc3174a2ddafeb09c8b3a9fd4909"
+  integrity sha512-qAF7lvZ8ZduJQ/9SPfhlYU03/bPdG3g9IQVmfGzPvi0XM5EJPj/8cUMf5bcoIREF1P2nz82LYeFGHTXQ0slJbg==
   dependencies:
     gray-matter "^4.0.3"
     micro-mdx-parser "^1.1.1"
@@ -133,6 +133,29 @@ combined-stream@^1.0.8:
   dependencies:
     delayed-stream "~1.0.0"
 
+comment-block-parser@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/comment-block-parser/-/comment-block-parser-1.1.0.tgz#51e4d889f118fba7fe16f58423768833ac7442f3"
+  integrity sha512-s8SKFzw8nnAXSECTBXP5xiIrZzFI/ALOnynNkaFI0v1smvL8eV682VDETyS6/znqrD5Ez7+c2lyG3fBsHZP/iw==
+  dependencies:
+    dedent "^1.6.0"
+    oparser "^3.0.22"
+
+comment-block-replacer@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/comment-block-replacer/-/comment-block-replacer-0.1.1.tgz#bd3609f869219194ec0b7a99b6b74318045f1c8c"
+  integrity sha512-fxYp85HfoiVEjmjgLMzxJInOnJHiUlu/gAUSUDsBo5+LH+0tSwQuQ0qjsyXSyeLPY5sQicALMvqe9r9T1RA7+w==
+  dependencies:
+    comment-block-transformer "0.2.0"
+    is-valid-path "^0.1.1"
+
+comment-block-transformer@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/comment-block-transformer/-/comment-block-transformer-0.2.0.tgz#8a6d7fe8e96ad94a90566340ebb230f20f85d3e0"
+  integrity sha512-unGA9sFSWInEKGCGAIoFxfTcBbOvROc8LRq8tFrz1xk3sv6vU8r+pq1YRJ/28sXKvzwqqR+dQqDdWc2aZ7byhg==
+  dependencies:
+    comment-block-parser "1.1.0"
+
 concat-stream@^1.6.0, concat-stream@^1.6.2:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/concat-stream/-/concat-stream-1.6.2.tgz#904bdf194cd3122fc675c77fc4ac3d4ff0fd1a34"
@@ -155,6 +178,11 @@ d@1, d@^1.0.1, d@^1.0.2:
   dependencies:
     es5-ext "^0.10.64"
     type "^2.7.2"
+
+dedent@^1.6.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/dedent/-/dedent-1.7.0.tgz#c1f9445335f0175a96587be245a282ff451446ca"
+  integrity sha512-HGFtf8yhuhGhqO07SV79tRp+br4MnbdjeVxotpn1QBl30pcLLCQjX5b2295ll0fv8RKDKsmWYrl05usHM9CewQ==
 
 define-data-property@^1.1.4:
   version "1.1.4"
@@ -547,12 +575,15 @@ lru-queue@^0.1.0:
   dependencies:
     es5-ext "~0.10.2"
 
-markdown-magic@3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-3.7.0.tgz#6e781ac290f6ef65edf9a023a598c7b348cb2db6"
-  integrity sha512-3tMaDZuT/7+k3bzzjrXDFGkXEIbG9Sx2W6js0g5y8l81uB7pQqhBCqqOK05/8oBWq/MMroKwktACZUmappdI+A==
+markdown-magic@4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/markdown-magic/-/markdown-magic-4.0.2.tgz#00f40e15966145d1fc0c4b7f476cddb5ae8951fb"
+  integrity sha512-XUUB4P+/QKJRCwE2EccyqGuiIEsk+lE/wFkVMm7ow5yKAPq20fJqr0gKFWSDXHRRCBccaxuTMQdxlCsSJJDAeA==
   dependencies:
-    "@davidwells/md-utils" "0.0.52"
+    "@davidwells/md-utils" "0.0.53"
+    comment-block-parser "1.1.0"
+    comment-block-replacer "0.1.1"
+    comment-block-transformer "0.2.0"
     globrex "^0.1.2"
     gray-matter "^4.0.3"
     is-glob "^4.0.3"
