@@ -4,8 +4,8 @@ import { join, resolve } from 'path';
 import { markdownMagic } from 'markdown-magic';
 import { markdownTable } from 'markdown-table';
 
-import pkg from './package.json' with { type: 'json' }
-import badgeConfig from './badge.json' with { type: 'json' }
+import pkg from './package.json' with { type: 'json' };
+import badgeConfig from './badge.json' with { type: 'json' };
 
 const key = pkg.stats?.user;
 const __dirname = resolve();
@@ -64,34 +64,77 @@ const names = [
 	'webpack-mpa-ts'
 ];
 
-(async () => {
-	console.log(`Fetching data for user ${key} from NPM. Please wait...`);
-
+async function fetchPackageDownloads(name, maxRetries = 3) {
 	const today = new Date();
 	const endDate = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+	const startDate = pkg.stats.startDate;
+	const url = `https://api.npmjs.org/downloads/range/${startDate}:${endDate}/${name}`;
+
+	for (let attempt = 1; attempt <= maxRetries; attempt++) {
+		try {
+			const res = await fetch(url);
+
+			if (!res.ok) {
+				console.error(`❌ [${name}] HTTP ${res.status} ${res.statusText}`);
+
+				throw new Error(`HTTP ${res.status}`);
+			}
+
+			const text = await res.text();
+
+			if (!text.trim().startsWith('{')) {
+				console.warn(`⚠️  [${name}] Response not JSON (probably rate-limited)`);
+
+				throw new Error('Non-JSON response');
+			}
+
+			const json = JSON.parse(text);
+			const count = json.downloads ? json.downloads.reduce((sum, d) => sum + d.downloads, 0) : 0;
+
+			console.log(`✅ [${name}] ${count.toLocaleString()} downloads`);
+
+			return count;
+		} catch (err) {
+			const delay = 1000 * Math.pow(2, attempt - 1) + Math.random() * 500;
+
+			console.warn(`⏳ [${name}] Retry ${attempt}/${maxRetries} in ${Math.round(delay)}ms (${err.message})`);
+
+			await new Promise(resolve => setTimeout(resolve, delay));
+		}
+	}
+
+	console.error(`❌ [${name}] Failed after ${maxRetries} retries`);
+
+	return 0;
+}
+
+(async () => {
+	console.log(`⏳ Fetching packages downloads data for user ${key} from NPM. Please wait...`);
 
 	const data = [];
 
 	for (const name of names) {
-		const count = await fetch(`https://api.npmjs.org/downloads/range/${pkg.stats.startDate}:${endDate}/${name}`)
-			.then(r => r.json())
-			.then(response => response.downloads.map(item => item.downloads).reduce((sum, curr) => sum + curr, 0));
+		const count = await fetchPackageDownloads(name);
+		const delay = 1500 + Math.random() * 500;
 
-		data.push({
-			name,
-			count
-		});
+		data.push({ name, count });
+
+		console.log(`⏸ Waiting ${Math.round(delay)}ms before next package...`);
+
+		await new Promise(resolve => setTimeout(resolve, delay));
 	}
 
 	const sum = data.reduce((sum, curr) => sum + curr.count, 0);
 
-	const sortedStats = data
-		.sort(({ name: aName }, { name: bName }) => (aName > bName ? 1 : aName < bName ? -1 : 0))
-		.map(item => {
-			const { name, count } = item;
+	const sortedStats = data.toSorted(({ name: aName }, { name: bName }) =>
+		aName > bName ? 1 : aName < bName ? -1 : 0
+	);
 
-			return [`[${name}](https://www.npmjs.com/package/${name})`, count];
-		});
+	const mappedStats = sortedStats.map(item => {
+		const { name, count } = item;
+
+		return [`[${name}](https://www.npmjs.com/package/${name})`, count];
+	});
 
 	badgeConfig.message = `${sum} Downloads`;
 
@@ -100,7 +143,7 @@ const names = [
 	await markdownMagic(join(__dirname, 'README.md'), {
 		matchWord: 'AUTO-GENERATED-CONTENT',
 		transforms: {
-			customTransform: () => markdownTable([['Name', 'Downloads'], ...sortedStats, ['**Sum**', `**${sum}**`]])
+			customTransform: () => markdownTable([['Name', 'Downloads'], ...mappedStats, ['**Sum**', `**${sum}**`]])
 		}
 	});
 })();
