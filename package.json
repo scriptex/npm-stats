@@ -23,7 +23,9 @@
 	},
 	"scripts": {
 		"start": "tsx index.ts",
-		"prettier": "prettier",
+		"prettier:ts": "prettier *.ts --list-different",
+		"prettier:mjs": "prettier *.mjs --list-different",
+		"prettier": "yarn prettier:ts && yarn prettier:mjs",
 		"lint": "eslint",
 		"tsc": "tsc --noEmit --skipLibCheck"
 	},
