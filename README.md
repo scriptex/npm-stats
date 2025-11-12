@@ -1,9 +1,8 @@
 [![Github Build](https://github.com/scriptex/npm-stats/workflows/Sync/badge.svg)](https://github.com/scriptex/npm-stats/actions?query=workflow%3ABuild)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/34d3d75710534dc6a38c3584a1dcd068)](https://www.codacy.com/gh/scriptex/npm-stats/dashboard?utm_source=github.com&utm_medium=referral&utm_content=scriptex/npm-stats&utm_campaign=Badge_Grade)
-[![Codebeat Badge](https://codebeat.co/badges/d765a4c8-2c0e-44f2-89c3-fa364fdc14e6)](https://codebeat.co/projects/github-com-scriptex-npm-stats-master)
 [![CodeFactor Badge](https://www.codefactor.io/repository/github/scriptex/npm-stats/badge)](https://www.codefactor.io/repository/github/scriptex/npm-stats)
 [![DeepScan grade](https://deepscan.io/api/teams/3574/projects/5257/branches/40799/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3574&pid=5257&bid=40799)
-[![Analytics](https://ga-beacon-361907.ew.r.appspot.com/UA-83446952-1/github.com/scriptex/npm-stats/README.md?pixel)](https://github.com/scriptex/npm-stats/)
+[![Analytics](https://ga-beacon.atanas.info/api/analytics?account=UA-83446952-1&page=github.com/scriptex/npm-stats&pixel)](https://github.com/scriptex/npm-stats/)
 
 # NPM Stats
 
@@ -136,11 +135,11 @@ MIT
     </a>
     &nbsp;
     <a href="https://profile.codersrank.io/user/scriptex">
-        <img src="https://raw.githubusercontent.com/scriptex/socials/master/styled-assets/codersrank.svg" height="20" alt="">
+        <img src="https://raw.githubusercontent.com/scriptex/socials/master/styled-assets/codersrank.svg" width="24" height="20" alt="">
     </a>
     &nbsp;
     <a href="https://linktr.ee/scriptex">
-        <img src="https://raw.githubusercontent.com/scriptex/socials/master/styled-assets/linktree.svg" height="20" alt="">
+        <img src="https://raw.githubusercontent.com/scriptex/socials/master/styled-assets/linktree.svg" width="32" height="20" alt="">
     </a>
 </div>
 
