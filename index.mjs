@@ -1,5 +1,6 @@
 import { writeFileSync } from 'fs';
 import { join, resolve } from 'path';
+import { randomBytes } from 'crypto';
 
 import { markdownMagic } from 'markdown-magic';
 import { markdownTable } from 'markdown-table';
@@ -64,6 +65,12 @@ const names = [
 	'webpack-mpa-ts'
 ];
 
+function randomFloat() {
+	const buf = randomBytes(4);
+	const num = buf.readUInt32BE(0);
+	return num / 0xffffffff;
+}
+
 async function fetchPackageDownloads(name, maxRetries = 3) {
 	const today = new Date();
 	const endDate = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
@@ -95,7 +102,7 @@ async function fetchPackageDownloads(name, maxRetries = 3) {
 
 			return count;
 		} catch (err) {
-			const delay = 1000 * Math.pow(2, attempt - 1) + Math.random() * 500;
+			const delay = 1000 * Math.pow(2, attempt - 1) + randomFloat() * 500;
 
 			console.warn(`⏳ [${name}] Retry ${attempt}/${maxRetries} in ${Math.round(delay)}ms (${err.message})`);
 
@@ -115,7 +122,7 @@ async function fetchPackageDownloads(name, maxRetries = 3) {
 
 	for (const name of names) {
 		const count = await fetchPackageDownloads(name);
-		const delay = 1500 + Math.random() * 500;
+		const delay = 1500 + randomFloat() * 500;
 
 		data.push({ name, count });
 
