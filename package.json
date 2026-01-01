@@ -30,14 +30,14 @@
 		"tsc": "tsc --noEmit --skipLibCheck"
 	},
 	"dependencies": {
-		"markdown-magic": "4.0.4",
+		"markdown-magic": "4.0.5",
 		"markdown-table": "3.0.4"
 	},
 	"devDependencies": {
 		"@types/markdown-magic": "1.0.4",
 		"@types/node": "24.10.4",
-		"@typescript-eslint/eslint-plugin": "8.50.0",
-		"@typescript-eslint/parser": "8.50.0",
+		"@typescript-eslint/eslint-plugin": "8.50.1",
+		"@typescript-eslint/parser": "8.50.1",
 		"eslint": "9.39.2",
 		"eslint-config-prettier": "10.1.8",
 		"eslint-plugin-import": "2.32.0",
