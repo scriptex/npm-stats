@@ -46,7 +46,7 @@
 		"eslint-plugin-promise": "7.3.0",
 		"globals": "17.11.0",
 		"prettier": "3.9.6",
-		"tsx": "4.23.12",
+		"tsx": "4.23.13",
 		"typescript": "5.9.3"
 	},
 	"private": true,
