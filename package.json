@@ -31,7 +31,7 @@
 	},
 	"dependencies": {
 		"markdown-magic": "4.11.0",
-		"markdown-table": "3.0.4"
+		"markdown-table": "3.1.0"
 	},
 	"devDependencies": {
 		"@eslint/js": "10.0.1",
@@ -39,13 +39,13 @@
 		"@types/node": "26.6.6",
 		"@typescript-eslint/eslint-plugin": "8.72.2",
 		"@typescript-eslint/parser": "8.72.2",
-		"eslint": "10.14.0",
+		"eslint": "10.15.0",
 		"eslint-config-prettier": "10.1.8",
 		"eslint-plugin-import": "2.32.0",
 		"eslint-plugin-perfectionist": "5.13.0",
 		"eslint-plugin-promise": "7.3.0",
 		"globals": "17.14.0",
-		"prettier": "3.9.10",
+		"prettier": "3.10.1",
 		"tsx": "4.23.15",
 		"typescript": "5.9.3"
 	},
